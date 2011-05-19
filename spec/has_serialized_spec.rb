@@ -19,7 +19,7 @@ describe HasSerialized do
 
     it "should allow assignment" do
       @page.gunslinger = false
-      @page.gunslinger.should be_false
+      @page.gunslinger.should be_true
     end
   end
 end
