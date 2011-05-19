@@ -12,8 +12,8 @@ require 'rake'
 require 'jeweler'
 Jeweler::Tasks.new do |gem|
   # gem is a Gem::Specification... see http://docs.rubygems.org/read/chapter/20 for more options
-  gem.name = "has_serialized_gem"
-  gem.homepage = "http://github.com/ramon.tayag/has_serialized_gem"
+  gem.name = "has_serialized"
+  gem.homepage = "http://github.com/ramon.tayag/has_serialized"
   gem.license = "MIT"
   gem.summary = %Q{TODO: one-line summary of your gem}
   gem.description = %Q{TODO: longer description of your gem}
@@ -44,7 +44,7 @@ Rake::RDocTask.new do |rdoc|
   version = File.exist?('VERSION') ? File.read('VERSION') : ""
 
   rdoc.rdoc_dir = 'rdoc'
-  rdoc.title = "has_serialized_gem #{version}"
+  rdoc.title = "has_serialized #{version}"
   rdoc.rdoc_files.include('README*')
   rdoc.rdoc_files.include('lib/**/*.rb')
 end

@@ -19,7 +19,11 @@ u.preferences
 => {:show_email => true, :locale => :en }
 </pre>
 
-== Contributing to has_serialized
+h2. Specs
+
+Run specs through @rake spec@ or @guard start@ for autotest-like testing.
+
+h2. Contributing to has_serialized
  
 * Check out the latest master to make sure the feature hasn't been implemented or the bug hasn't been fixed yet
 * Check out the issue tracker to make sure someone already hasn't requested it and/or contributed it
